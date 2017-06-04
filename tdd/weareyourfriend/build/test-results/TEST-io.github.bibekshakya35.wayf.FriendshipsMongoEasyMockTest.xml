@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="io.github.bibekshakya35.wayf.FriendshipsMongoEasyMockTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2017-06-04T09:06:06" hostname="bibek-Lenovo-B470" time="0.637">
+  <properties/>
+  <testcase name="alexDoesnotHaveFriends" classname="io.github.bibekshakya35.wayf.FriendshipsMongoEasyMockTest" time="0.585"/>
+  <testcase name="mockingWorkFine" classname="io.github.bibekshakya35.wayf.FriendshipsMongoEasyMockTest" time="0.019"/>
+  <testcase name="bibekHasFivefriend" classname="io.github.bibekshakya35.wayf.FriendshipsMongoEasyMockTest" time="0.02"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[Jun 04, 2017 2:51:07 PM io.github.bibekshakya35.wayf.FriendshipsMongo getFriendsList
+INFO: is there any one out theretrue
+Jun 04, 2017 2:51:07 PM io.github.bibekshakya35.wayf.FriendshipsMongo getFriendsList
+INFO: is there any one out theretrue
+Jun 04, 2017 2:51:07 PM io.github.bibekshakya35.wayf.FriendshipsMongoEasyMockTest bibekHasFivefriend
+INFO: ----data----[]
+]]></system-err>
+</testsuite>
