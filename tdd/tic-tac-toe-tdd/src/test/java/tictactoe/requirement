@@ -21,3 +21,6 @@ Requirement 3
 A player wins by being the first to connect a line of friendly
 pieces from one side or corner of the board to the other.
 If no winning condition is fulilled, then there is no winner.
+
+Requirement 4
+The result is a draw when all the boxes are filled.
