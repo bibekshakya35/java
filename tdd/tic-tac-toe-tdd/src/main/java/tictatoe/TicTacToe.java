@@ -1,24 +1,38 @@
 package tictatoe;
 
 /**
- *
  * @author bibek
  */
 public class TicTacToe {
 
-    private final Character[][] board = {{null, null, null}, {null, null, null}, {null, null, null}};
+    private final Character[][] board = {{'\0', '\0', '\0'}, {'\0', '\0', '\0'}, {'\0', '\0', '\0'}};
+    private char lastPlayer = '\0';
+    public String play(int x, int y) {
+        this.checkAxis(x);
+        this.checkAxis(y);
+        this.setBox(x,y);
+        lastPlayer = this.nextPlayer();
+        return "No winner";
+    }
 
-    public void play(int x, int y) {
-        if (x < 1 || x > 3) {
-            throw new RuntimeException("X IS OUTSIDE BOARD");
-        } else if (y < 1 || y > 3) {
-            throw new RuntimeException("Y IS OUTSIDE BOARD");
+    private void checkAxis(int axis) {
+        if (axis < 1 || axis > 3) {
+            throw new RuntimeException("X is outside the box");
         }
-        if (board[x - 1][y - 1] != null) {
-            throw new RuntimeException("Box is occupied");
+    }
+
+    private void setBox(int x, int y) {
+        if (board[x - 1][y - 1] != '\0') {
+            throw new RuntimeException("Box is completed");
         } else {
             board[x - 1][y - 1] = 'X';
         }
+    }
 
+    public char nextPlayer() {
+        if (lastPlayer=='X'){
+            return 'O';
+        }
+        return 'X';
     }
 }
