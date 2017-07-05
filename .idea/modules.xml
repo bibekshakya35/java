@@ -6,6 +6,9 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/javaeight.iml" filepath="$PROJECT_DIR$/.idea/modules/javaeight.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/javaeight_main.iml" filepath="$PROJECT_DIR$/.idea/modules/javaeight_main.iml" group="javaeight" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/javaeight_test.iml" filepath="$PROJECT_DIR$/.idea/modules/javaeight_test.iml" group="javaeight" />
+      <module fileurl="file://$PROJECT_DIR$/junitfive/junitfive.iml" filepath="$PROJECT_DIR$/junitfive/junitfive.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/junitfive_main.iml" filepath="$PROJECT_DIR$/.idea/modules/junitfive_main.iml" group="junitfive" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/junitfive_test.iml" filepath="$PROJECT_DIR$/.idea/modules/junitfive_test.iml" group="junitfive" />
     </modules>
   </component>
 </project>

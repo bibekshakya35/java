@@ -6,12 +6,16 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="junitfive" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="javaeight" target="1.5" />
       <module name="javaeight_main" target="1.8" />
       <module name="javaeight_test" target="1.8" />
+      <module name="junitfive" target="1.8" />
+      <module name="junitfive_main" target="1.8" />
+      <module name="junitfive_test" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
