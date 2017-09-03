@@ -1,0 +1,10 @@
+requirement 1:
+You are given the initial starting point (x, y) of a ship and the
+direction (N, S, E, or W) it is facing.
+requirement 2:
+Implement commands that move the ship forward and backward( f and b )
+requirement 3:
+Implement commands that turn the ship left and right (l and r)
+requiremnt 4 :
+The ship can receive a string with commands (lrfb is equivalent
+to left, right, forward, and backward).

@@ -1,0 +1,82 @@
+{
+  "type" : "record",
+  "name" : "Extract",
+  "namespace" : "com.dowjones.dna",
+  "doc" : "Avro schema for extraction content used by Dow Jones' SyndicationHub",
+  "fields" : [ {
+    "name" : "an",
+    "type" : [ "string", "null" ]
+  }, {
+    "name" : "publication_date",
+    "type" : [ "long", "null" ]
+  }, {
+    "name" : "snippet",
+    "type" : [ "string", "null" ]
+  }, {
+    "name" : "body",
+    "type" : [ "string", "null" ]
+  }, {
+    "name" : "art",
+    "type" : [ "string", "null" ]
+  }, {
+    "name" : "action",
+    "type" : [ "string", "null" ]
+  }, {
+    "name" : "credit",
+    "type" : [ "string", "null" ]
+  }, {
+    "name" : "byline",
+    "type" : [ "string", "null" ]
+  }, {
+    "name" : "document_type",
+    "type" : [ "string", "null" ]
+  }, {
+    "name" : "language_code",
+    "type" : [ "string", "null" ]
+  }, {
+    "name" : "title",
+    "type" : [ "string", "null" ]
+  }, {
+    "name" : "copyright",
+    "type" : [ "string", "null" ]
+  }, {
+    "name" : "dateline",
+    "type" : [ "string", "null" ]
+  }, {
+    "name" : "source_code",
+    "type" : [ "string", "null" ]
+  }, {
+    "name" : "modification_date",
+    "type" : [ "long", "null" ]
+  }, {
+    "name" : "company_codes",
+    "type" : [ "string", "null" ]
+  }, {
+    "name" : "publisher_name",
+    "type" : [ "string", "null" ]
+  }, {
+    "name" : "region_of_origin",
+    "type" : [ "string", "null" ]
+  }, {
+    "name" : "word_count",
+    "type" : [ "int", "null" ]
+  }, {
+    "name" : "subject_codes",
+    "type" : [ "string", "null" ]
+  }, {
+    "name" : "region_codes",
+    "type" : [ "string", "null" ]
+  }, {
+    "name" : "industry_codes",
+    "type" : [ "string", "null" ]
+  }, {
+    "name" : "person_codes",
+    "type" : [ "string", "null" ]
+  }, {
+    "name" : "currency_codes",
+    "type" : [ "string", "null" ]
+  }, {
+    "name" : "market_index_codes",
+    "type" : [ "string", "null" ]
+  } ]
+}
