@@ -3,6 +3,8 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/apacheavro.iml" filepath="$PROJECT_DIR$/.idea/modules/apacheavro.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/apacheavro_main.iml" filepath="$PROJECT_DIR$/.idea/modules/apacheavro_main.iml" group="apacheavro" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/apacheavro_test.iml" filepath="$PROJECT_DIR$/.idea/modules/apacheavro_test.iml" group="apacheavro" />
     </modules>
   </component>
 </project>
